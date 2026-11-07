@@ -2,6 +2,7 @@
 
 ## 2.0.0
 
+- changed package `Resend.v2`
 - retyped type `SendEmailRequest`
 - personal data sent by operation `emails.send`: SendEmailRequest.html to the address its connection gives
 - personal data sent by operation `emails.send`: SendEmailRequest.subject to the address its connection gives
