@@ -1,12 +1,8 @@
 /// One email to send: who it is from and to, its subject, its HTML and
 /// its text, and the files sent with it.
 public type SendEmailRequest = Object {
-    from: Text {
-        personal: PersonalData.contact
-    }
-    to: Text {
-        personal: PersonalData.contact
-    }
+    from: Email
+    to: Email
     subject: Text {
         personal: PersonalData.identifying
     }
