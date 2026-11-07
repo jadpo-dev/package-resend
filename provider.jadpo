@@ -5,4 +5,5 @@ provider {
     protocol: Protocol.json_http
     credential: CredentialScheme.bearer
     error_code: "name"
+    reviewed: [EmailAttachment, SendEmailRequest, SendEmailResponse]
 }
